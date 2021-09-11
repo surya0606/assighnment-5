@@ -1,0 +1,15 @@
+def max_num(list):
+  max = list[0] 
+  for a in list: 
+    if a > max: 
+      max = a
+  return max
+def min_num(list):
+  min = list[0] 
+  for a in list: 
+    if a < min: 
+      min = a 
+  return min
+my_list = [2, 6, 8, 14, 3, 77, 63]
+print("Maximum of the list", max_num(my_list))
+print("Minimum of the list", min_num(my_list))
